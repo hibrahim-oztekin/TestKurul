@@ -17,6 +17,16 @@ public static partial class StringHelper
     public static string GetEnumDescription(this Enum e) => e.GetType().GetMember(e.ToString()).FirstOrDefault()!.GetCustomAttribute<DescriptionAttribute>()!.Description;
 
     /// <summary>
+    /// Enum olarak verilen parametrenin Description alanına girilen Guid değeri döndürür.
+    /// </summary>
+    /// <param name="e">Enum</param>
+    /// <returns>Guid</returns>
+    public static Guid GetEnumDescriptionAsGuid(this Enum e)
+    {
+        return Guid.Parse(e.GetType().GetMember(e.ToString()).FirstOrDefault()!.GetCustomAttribute<DescriptionAttribute>()!.Description);
+    }
+
+    /// <summary>
     /// string olarak verilen parametrenin değerini SEO'ya (Arama Motoru Optimazsyonu) uygun olarak dönüştürerek geri döndürür.
     /// </summary>
     /// <param name="inputString"></param>

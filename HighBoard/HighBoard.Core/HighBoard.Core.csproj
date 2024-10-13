@@ -7,10 +7,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Models\" />
-  </ItemGroup>
-
-  <ItemGroup>
     <Compile Update="Globalization\Dictionary.Designer.cs">
       <DesignTime>True</DesignTime>
       <AutoGen>True</AutoGen>

@@ -1,5 +1,4 @@
-﻿
-namespace HighBoard.Application.Caching;
+﻿namespace HighBoard.Application.Caching;
 
 public class DistributedCacheService : IDistributedCacheService
 {
