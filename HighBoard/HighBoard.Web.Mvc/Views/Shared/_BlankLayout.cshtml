@@ -2,11 +2,11 @@
 <html lang="en">
 <head>
 
-    @Html.Partial("~/Views/Shared/_TitleMeta.cshtml")
+    @await Html.PartialAsync("~/Views/Shared/_TitleMeta.cshtml")
 
-    @RenderSection("styles", false)
+    @await RenderSectionAsync("styles", false)
 
-    @Html.Partial("~/Views/Shared/_headCSS.cshtml")
+    @await Html.PartialAsync("~/Views/Shared/_headCSS.cshtml")
 
 </head>
 <body>
@@ -27,6 +27,6 @@
     <!-- Icon -->
     <script src="https://unicons.iconscout.com/release/v2.0.1/script/monochrome/bundle.js"></script>
 
-    @RenderSection("scripts", required: false)
+    @await RenderSectionAsync("scripts", required: false)
 </body>
 </html>
