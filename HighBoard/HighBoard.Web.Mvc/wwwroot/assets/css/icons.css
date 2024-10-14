@@ -2,7 +2,7 @@
 /*
 Template Name: Tocly -  Admin & Dashboard Template
 Author: Themesdesign
-Version: 2.0.0
+Version: 1.2.0
 Contact: themesdesign.in@gmail.com
 File: Icons Css File
 */
@@ -24091,7 +24091,7 @@ File: Icons Css File
     transform: rotate(359deg);
   }
 }
-/*# sourceMappingURL=materialdesignicons.css.map */
+
 /*!
  * Font Awesome Free 5.13.0 by @fontawesome - https://fontawesome.com
  * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
@@ -30982,10 +30982,8 @@ readers do not read off random characters that represent icons */
 */
 @font-face {
   font-family: "remixicon";
-  src: url("../fonts/remixicon.eot?t=1590207869815");
-  /* IE9*/
-  src: url("../fonts/remixicon.eot?t=1590207869815#iefix") format("embedded-opentype"), url("../fonts/remixicon.woff2?t=1590207869815") format("woff2"), url("../fonts/remixicon.woff?t=1590207869815") format("woff"), url("../fonts/remixicon.ttf?t=1590207869815") format("truetype"), url("../fonts/remixicon.svg?t=1590207869815#remixicon") format("svg");
-  /* iOS 4.1- */
+  src: url("../fonts/remixicon.eot?t=1590207869815"); /* IE9*/
+  src: url("../fonts/remixicon.eot?t=1590207869815#iefix") format("embedded-opentype"), url("../fonts/remixicon.woff2?t=1590207869815") format("woff2"), url("../fonts/remixicon.woff?t=1590207869815") format("woff"), url("../fonts/remixicon.ttf?t=1590207869815") format("truetype"), url("../fonts/remixicon.svg?t=1590207869815#remixicon") format("svg"); /* iOS 4.1- */
   font-display: swap;
 }
 [class^=ri-], [class*=" ri-"] {
